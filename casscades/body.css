@@ -1,0 +1,125 @@
+.popular_courses{
+    margin-top: 160px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.body1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(79, 222, 44, 0.582);
+    font-weight: bold;
+    font-size: 105%;
+    margin: 35px 0px 10px 0px;
+}
+.body2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    font-size:42px;
+    color: rgb(34, 34, 34);
+}
+.body3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+}
+.body4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 0px 20px 0px;
+    font-weight: 600;
+    font-size:18px;
+    color: rgb(110, 110, 110);
+}
+.thumbnail{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.thumbnail:hover{
+    cursor: pointer;
+}
+.thumb{
+    border-radius: 15px;
+    height: 30%;
+    width: 150%;
+}
+.play{
+    z-index: 20;
+    position: absolute;
+    top: 40%;
+    height: 25%;
+}
+.filter{
+    z-index: 10;
+    position: absolute;
+    border-radius: 15px;
+}
+.most_popular{
+    margin-top: 160px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 70%;
+    height: 70%;
+}
+.trading,
+.course_stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 15px rgb(207, 207, 207);
+    border-radius: 10px;
+    height: 60%;
+    width: 65%;
+    padding: 25px 10px 35px 10px;
+}
+.img1,
+.img2{
+    height: 14%;
+    width: 14%;
+}
+.course{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 10px 0px;
+    font-weight: 560;
+    font-size:22px;
+    color: rgb(22, 22, 22);
+}
+.line{
+    margin-top: 15px;
+    width: 25%;
+    height: 0.5%;
+    border-radius: 5px;
+    border: solid red;
+    background-color: red;
+}
+.line1{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.line1 p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size:15px;
+    color: rgb(155, 155, 155);
+}

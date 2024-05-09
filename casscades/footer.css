@@ -1,0 +1,122 @@
+.newsletter{
+    height: 700px;
+    width: 100%;
+    background-color: #2D4059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(80, 183, 54, 0.582);
+    font-weight: bold;
+    font-size: 105%;
+    margin: 0px 0px 10px 0px;
+}
+.footer2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    font-size:42px;
+    color: rgb(255, 255, 255);
+}
+.footer3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(192, 192, 192);
+}
+.footer4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px 0px 40px 0px;
+    font-weight: 600;
+    font-size:18px;
+    color: rgb(190, 190, 190);
+}
+.mail_box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0px;
+}
+.mail{
+    padding: 15px;
+    width: 400px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe{
+    border-radius: 0px 8px 8px 0px;
+    border:none;
+    background-color: rgba(105, 218, 76, 0.582);
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 105%;
+    color: white;
+    width: 120px;
+    height: 48px;
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.subscribe:hover{
+    background-color: rgba(79, 222, 44, 0.582);
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 65px;
+}
+.col{
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    align-items: start;
+}
+.foot1{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+.contact img{
+    height: 70%;
+    cursor: pointer;
+}
+.info{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+.signature{
+    padding: 10px;
+    height: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    height: 70%;
+    cursor: pointer;
+}

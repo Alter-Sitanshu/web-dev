@@ -1,0 +1,137 @@
+.banner{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.banners{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 880px;
+    width: 80%;
+}
+.box{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 45px;
+}
+.ban1{
+    background-color: rgb(235, 235, 235);
+}
+.ban2{
+    background-color:  #2D4059;
+}
+.free{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    color: black;
+}
+.remark1{
+    margin:0px 20px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+.remark2{
+    margin:40px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(83, 159, 64, 0.582);
+    font-weight: bold;
+    font-size: 300%;
+}
+.remark3{
+    margin: 0px 20px 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8EC2F2;
+    font-weight: bold;
+}
+.try{
+    margin: 45px 20px 35px 20px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgba(105, 218, 76, 0.582);
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 105%;
+    color: white;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.try:hover{
+    background-color: rgba(66, 232, 25, 0.582);
+}
+.check_group{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 5px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: start;
+}
+.check p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.circle{
+    height: 80%;
+}
+.free2,
+.check_group2 p,
+.remark11{
+    color: white;
+}
+.review_box{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.customer_review{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 100%;
+    width: 70%;
+}
+.review{
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.customer{
+    height: 70%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.statement{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    margin-bottom: 30px;
+}

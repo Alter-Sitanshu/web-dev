@@ -1,0 +1,156 @@
+.marketing{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    column-gap: 18%;
+}
+.woman{
+    height: 40%;
+    width: 40%;
+}
+.course2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+.body5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(79, 222, 44, 0.582);
+    font-weight: bold;
+    font-size: 105%;
+    cursor: pointer;
+}
+.body6{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0px 25px 0px;
+    font-weight: bold;
+    font-size:42px;
+    color: rgb(34, 34, 34);
+}
+.client{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+.prods{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+}
+.prod{
+    height: 80%;
+    width: 85%;
+    border-radius: 4px;
+}
+
+.prod_view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prod_desc{
+    padding-left: 45px;
+    width: 70%;
+    position: relative;
+}
+
+.head1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(79, 222, 44, 0.582);
+    font-weight: bold;
+    font-size: 105%;
+}
+.desc1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(34, 34, 34);
+}
+.desc2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+.download_stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+.download{
+    height: 2ch;
+    width: 2ch;
+}
+.ratings{
+    position: absolute;
+    top:5px;
+    right: -25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    background-color: #2D4059;
+    border-radius: 20px;
+}
+
+.ratings p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.initial_price{
+    padding-left: 5px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 560;
+    font-size: 18px;
+    color: rgb(183, 183, 183);
+}
+.final_price{
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFAB71;
+}
+.learn_more2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: white;
+    border:solid;
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 108%;
+    color: rgba(105, 218, 76, 0.582);
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.learn_more2:hover{
+    border:none;
+    background-color: rgba(105, 218, 76, 0.582);
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 105%;
+    color: white;
+}
+.arrow{
+    margin: 0px;
+    padding-left: 5px;
+    font-size: 25px;
+}

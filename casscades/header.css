@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    row-gap: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+}
+.brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 108%;
+    color: gray;
+    align-items: center;
+}
+.nav p{
+    cursor: pointer;
+}
+.log-button{
+    display: flex;
+    column-gap: 25px;
+    flex-direction: row;
+}
+.login{
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: white;
+    border:none;
+    font-size: 105%;
+    color: rgba(105, 218, 76, 0.582);
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.login:hover{
+    background-color: rgb(227, 226, 226);
+    color:rgba(79, 222, 44, 0.582);
+}
+.join{
+    border-radius: 8px;
+    border:none;
+    background-color: rgba(105, 218, 76, 0.582);
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 105%;
+    color: white;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.join:hover{
+    background-color: rgba(79, 222, 44, 0.582);
+}
+.page1{
+    color: rgba(79, 222, 44, 0.582);
+    font-weight: bold;
+    font-size: 105%;
+    margin: 35px 0px 35px 0px;
+}
+.page2{
+    margin: 0px;
+    font-weight: bolder;
+    font-size:60px;
+    color: rgb(34, 34, 34);
+}
+.page3{
+    margin: 30px 0px 30px 0px;
+    font-weight: 600;
+    font-size:24px;
+    color: rgb(110, 110, 110);
+}
+.box1{
+    background-color: orange;
+    height: 200px;
+    width: 150px;
+    border-radius:30px;
+    position:absolute;
+    left: -30px;
+    top: -30px;
+}
+.box2{
+    background-color: orange;
+    height: 300px;
+    width: 150px;
+    border-radius:0px 0px 0px 30px;
+    position:absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.intro_page{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.girl1{
+    height: 650px;
+}
+.learn_more{
+    width: 140px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: white;
+    border:solid;
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 108%;
+    color: rgba(105, 218, 76, 0.582);
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.learn_more:hover{
+    border:none;
+    background-color: rgba(105, 218, 76, 0.582);
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 105%;
+    color: white;
+}
+.join2{
+    border-radius: 8px;
+    border:none;
+    background-color: rgba(105, 218, 76, 0.582);
+    border-color: rgba(105, 218, 76, 0.582);
+    font-size: 105%;
+    color: white;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.75ms;
+}
+.button2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
