@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "title": "Hello World",
+      "body": "Hello World How are you",
+      "author": "Sitanshu",
+      "id": "1"
+    },
+    {
+      "title": "Hello World",
+      "body": "Hello World How are you",
+      "author": "Rahul",
+      "id": "2"
+    },
+    {
+      "title": "Hello World",
+      "body": "Hello World How are you",
+      "author": "Sitanshu",
+      "id": "3"
+    }
+  ]
+}

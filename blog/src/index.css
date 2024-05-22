@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+  background-color: black;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0px auto;
+}
+.nav h1{
+  font-family: Poetsen One;
+  font-weight: 500;
+  font-size: 32px;
+  color: rgb(72, 255, 0);
+}
+.links{
+  min-width: 30%;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links a{
+  text-decoration: none;
+  font-family: Poetsen One;
+  font-size: 20px;
+  color: rgb(150, 150, 150);
+  transition: all 0.35ms;
+}
+.links a:hover{
+  color: red;
+}
+.loader{
+  font-family: Poetsen One;
+  font-weight: 500;
+  font-size: 32px;
+  color: red;
+}
+.content{
+  max-width: 80%;
+  margin: 10vh auto;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  column-gap: 6vh;
+}
+.blog_list{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+.blog_list h2{
+  margin: 0;
+  font-family: Poetsen One;
+  font-weight: 500;
+  font-size: 32px;
+  color: white;
+  margin: 0 auto;
+}
+.blog{
+  display: flex;
+  flex-direction: column;
+  padding: 10px auto;
+  padding: 2vh;
+  border-radius: 4vh;
+}
+.blog a{
+  text-decoration: none;
+}
+.blog:hover{
+  box-shadow: 3px 3px 5px rgba(210,210,210,0.2);
+  cursor: pointer;
+}
+.blog h2,
+.expanded_blog h2{
+  margin: 0;
+  color: rgb(150, 150, 150);
+  font-family: Poetsen One;
+  font-weight: 400;
+  font-size: 28px;
+}
+.blog h2:hover{
+  color: rgb(72, 255, 0);
+}
+.blog p,
+.expanded_blog p{
+  margin: 10px 0px;
+  color: rgb(255, 0, 0);
+  font-family: Poetsen One;
+  font-weight: 300;
+  font-size: 18px;
+}
+.blog button{
+  border: none;
+  border-radius: 2vh;
+  font-family: Poetsen One;
+  max-width: 10vh;
+  max-height: 5vh;
+  padding: 10px 10px;
+  background-color: gray;
+  cursor: pointer;
+  transition: all 0.35ms;
+}
+.blog button:hover{
+  background-color: red;
+  box-shadow: 3px 3px 5px rgba(210,210,210,0.2);
+}
+.newblog h2{
+  margin-bottom: 5vh;
+  color: rgb(150, 150, 150);
+  font-family: Poetsen One;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.expanded_blog article{
+  min-width: 80%;
+  margin: 0 auto;
+}
+.blog_body{
+  color: rgb(150, 150, 150);
+  font-family: Poetsen One;
+  font-size: 22px;
+}
+.newblog{
+  max-width: 90%;
+  margin: 0px auto;
+  text-align: center;
+}
+.newblog label{
+  text-align: left;
+  margin: 5vh auto;
+  color: rgb(255, 0, 0);
+  font-family: Poetsen One;
+  font-weight: 300;
+  font-size: 18px;
+  display: block;
+}
+.newblog input, .newblog textarea, .newblog select{
+  background-color: black;
+  color: white;
+  margin: 3vh auto;
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid rgb(64, 64, 64);
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block;
+  font-family: Poetsen One;
+}
+.newblog textarea{
+  height: 15vh;
+}
+.submit,
+.delete{
+  padding: 1.5vh 3vh;
+  margin: 5vh auto;
+  border: solid rgb(72, 255, 0);
+  border-radius: 20px;
+  background-color: rgb(72, 255, 0);
+  color: black;
+  font-family: Poetsen One;
+}
+.submit:hover,
+.delete:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  box-shadow: 3px 3px 4px rgba(210,210,210,0.2);
+}
