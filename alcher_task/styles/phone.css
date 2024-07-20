@@ -19,7 +19,7 @@
         color: white;
         padding-top: 3vh;
         height: fit-content;
-        animation: roll_in 0.5s ease-in-out;
+        animation: roll_down 0.5s ease-in-out;
         z-index: 120;
         width: 100%;
         position: absolute;
@@ -43,12 +43,38 @@
     .drop{
         background-color: rgba(24, 24, 24, 0.2);
     }
+    #popup{
+        width: 60%;
+        left: 20%;
+    }
+    .submit-button,
+    #cancel{
+        width: 20vw;
+    }
+    form{
+        padding: 0 3%;
+    }
+    #popup h1{
+        color: white;
+        margin: 0 0 2vh 3%;
+    }
+    form input{
+        width: 87%;
+    }
     @keyframes roll_down{
         from{
-            transform: translateY(-10px);
+            transform: translateY(-200px);
         }
         to{
-            transform: translateX(0px);
+            transform: translateY(0px);
+        }
+    }
+    @keyframes roll_up{
+        from{
+            transform: translateY(0px);
+        }
+        to{
+            transform: translateY(-200px);
         }
     }
 }

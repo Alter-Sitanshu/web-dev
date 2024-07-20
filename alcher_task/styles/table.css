@@ -150,8 +150,16 @@ form{
 }
 form input{
     font-weight: 600;
-    width: 20vw;
+    width: 18.5vw;
     font-size: 2.5vh;
     border-radius: 1vh;
     padding: 0.5vh;
+}
+@keyframes roll_in{
+    from{
+        transform: translateX(-350px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }

@@ -122,6 +122,8 @@ const handleMenu = () => {
     if(document.getElementById('sidemenu') && container.contains(document.getElementById('sidemenu'))){
         container.removeChild(document.getElementById('sidemenu'));
         container.style.gridTemplateColumns = '1fr';
+        document.getElementById('page').style.animation = '';
+        window.innerWidth < 650 ? document.getElementById('sidemenu').style.animation = 'roll_up 1s ease-in' : null;
     }
     else if(!document.getElementById('sidemenu')){
         const newSidemenu = document.createElement('div');
@@ -156,10 +158,7 @@ const handleMenu = () => {
         container.insertBefore(newSidemenu, container.firstChild);
         if(window.innerWidth > 650){
             container.style.gridTemplateColumns = '0.2fr 0.8fr';
-        }
-        else{
-            const nav = document.getElementsByTagName('nav')[0];
-            document.body.insertAdjacentElement('afterend'. newSidemenu);
+            document.getElementById('page').style.animation = 'roll_in 1s ease-out';
         }
     }
     else{

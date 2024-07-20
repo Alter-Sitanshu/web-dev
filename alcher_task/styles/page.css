@@ -83,7 +83,7 @@ nav{
     justify-content: flex-start;
     color: white;
     padding-top: 3vh;
-    animation: roll_in 0.5s ease-in-out;
+    animation: roll_in 1s ease-in-out;
 }
 .menu-box{
     display: flex;
