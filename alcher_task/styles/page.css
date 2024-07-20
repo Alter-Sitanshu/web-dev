@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5vh 1.5vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    z-index: 20;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1.2vh 0vw;
+    width: 8vw;
+    column-gap: 0.5vw;
+    transition: all 0.4ms ease-in;
+    height: fit-content;
+    border-radius: 4vh;
+}
+#home:hover{
+    cursor: pointer;
+}
+#user{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 1.2vh 0vw;
+    width: 8vw;
+    column-gap: 0vw;
+    transition: all 0.4ms ease-in;
+    height: fit-content;
+    border-radius: 4vh;
+}
+#user p,
+#home p{
+    margin: 0;
+    font-size: 1vw;
+    font-weight: 550;
+}
+#user:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    cursor: pointer;
+}
+#profile{
+    width: 20%;
+    border-radius: 10vh;
+}
+#burger{
+    width: 20%;
+    border-radius: 10vh;
+}
+#main-container{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    bottom: 0;
+    top: 8vh;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+#sidemenu{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    padding-top: 3vh;
+    animation: roll_in 0.5s ease-in-out;
+}
+.menu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 82%;
+}
+.menu-items{
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr 0.1fr;
+    align-items: center;
+    width: 100%;
+}
+.menu-items:hover{
+    cursor: pointer;
+}
+.menu-items p{
+    margin: 0 0 0 0.6vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+}
+#drop,
+#icon{
+    width: 1.6vw;
+}
+#drop{
+    position: absolute;
+    right: 1vw;
+}
+#new{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5vh 1vw;
+    font-size: 2.3vh;
+    border-radius: 1vh;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transform: all 0.35ms ease-out;
+    width: 15vw;
+    text-align: center;
+    margin: 0 auto;
+}
+#new:hover{
+    cursor: pointer;
+    background-color: rgb(220,220,220);
+}
+#new-icon{
+    width: 1.8vw;
+}
+#new p{
+    margin: 0.5vh 0 0 0.3vw;
+}
+
+@keyframes roll_in{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.drop{
+    margin-top: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    row-gap: 1vh;
+    animation: roll_down 0.3s ease-in ;
+}
+.drop a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 1.2vh 1vw;
+}

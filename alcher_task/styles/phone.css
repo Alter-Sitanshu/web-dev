@@ -1,0 +1,54 @@
+@media (max-width: 600px){
+    #user p,
+    #home p{
+        margin: 0;
+        font-size: 2.3vw;
+        font-weight: 550;
+    }
+    #user,
+    #home{
+        width: 15vw;
+    }
+    #sidemenu{
+        background-color: rgba(24, 24, 24, 0.9);
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vh;
+        align-items: center;
+        justify-content: flex-start;
+        color: white;
+        padding-top: 3vh;
+        height: fit-content;
+        animation: roll_in 0.5s ease-in-out;
+        z-index: 120;
+        width: 100%;
+        position: absolute;
+        top: -1vh;
+        left: 0;
+        padding-bottom: 4vh;
+    }
+    .menu-items p{
+        font-size: 3vw;
+    }
+    #new{
+        width: 24vw;
+    }
+    #new img{
+        width: 4vw;
+    }
+    #drop,
+    #icon{
+        width: 4vw;
+    }
+    .drop{
+        background-color: rgba(24, 24, 24, 0.2);
+    }
+    @keyframes roll_down{
+        from{
+            transform: translateY(-10px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+}
