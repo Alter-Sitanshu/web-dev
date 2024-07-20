@@ -13,7 +13,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    z-index: 20;
+    z-index: 120;
 }
 #home{
     display: flex;

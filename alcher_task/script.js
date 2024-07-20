@@ -109,9 +109,9 @@ const handleDrop = (id) => {
         const dropmenu = document.createElement('div');
         dropmenu.className = 'drop';
         dropmenu.innerHTML = `
-            <a href="www.google.com" target="_main">Commerce</a>
-            <a href="www.google.com" target="_main">Analytics</a>
-            <a href="www.google.com" target="_main">Crypto</a>
+            <a href="https://www.google.com/" target="_main">Commerce</a>
+            <a href="https://www.google.com/" target="_main">Analytics</a>
+            <a href="https://www.google.com/" target="_main">Crypto</a>
         `;
         document.getElementById(`${id}`).insertAdjacentElement('afterend', dropmenu);
     };
@@ -123,7 +123,6 @@ const handleMenu = () => {
         container.removeChild(document.getElementById('sidemenu'));
         container.style.gridTemplateColumns = '1fr';
         document.getElementById('page').style.animation = '';
-        window.innerWidth < 650 ? document.getElementById('sidemenu').style.animation = 'roll_up 1s ease-in' : null;
     }
     else if(!document.getElementById('sidemenu')){
         const newSidemenu = document.createElement('div');
