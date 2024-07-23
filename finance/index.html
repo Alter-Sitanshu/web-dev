@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>MoneyCo</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/calender.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/phone.css">
+</head>
+<body>
+    <button id="reset">Reset</button>
+    <img src="styles/images/block-right.png" id="right" alt="">
+    <img src="styles/images/block-left.png" id="left" alt="">
+    <div class="heading">
+        <h1>Good morning, <span>Sitanshu!</span></h1>
+        <h2>Welcome Back</h2>
+    </div>
+    <div class="container">
+        <div class="left-grid">
+            <div class="line-chart">
+                <canvas id="line-chart"></canvas>
+            </div>
+            <div class="transaction">
+                <h2 id="expense-history">Transaction</h2>
+                <button id="delete-item">Clear</button>
+                <button id="add-item">Add</button>
+                <div id="transaction-history"></div>
+            </div>
+        </div>
+        <div class="right-grid">
+            <div class="calender">
+                <div class="dropdowns">
+                    <select id="date-select" onchange="editDate()"></select>
+                    <select id="month-select" onchange="editDate()"></select>
+                    <select id="year-select" onchange="editDate()"></select>
+                </div>
+                <h2 id="year"></h2>
+                <h1 id="date"></h1>
+                <h3 id="day"></h3>
+            </div>
+            <div class="pie">
+                <canvas id="pie-chart"></canvas>
+            </div>
+            <div class="aggregate">
+                <h4 id="balance-title">Total Balance</h4>
+                <button id="update-balance">Update</button>
+                <h3 id="balance"></h3>
+                <div id="percentage"></div>
+            </div>
+        </div>
+    </div>
+    <div id="popup"></div>
+    <script src="script.js"></script>
+</body>
+</html>

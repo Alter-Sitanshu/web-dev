@@ -1,0 +1,37 @@
+@media (max-width: 650px) {
+    .container{
+        grid-template-columns: 1fr;
+        row-gap: 2vh;
+        width: 80vw;
+        margin: 10vh auto;
+    }
+    #delete-item{
+        right: 14vw;
+        padding: 1.3vh 1.5vw;
+    }
+    #add-item{
+        right: 2vw;
+        padding: 1.35vh 2.5vw;
+    }
+    #update-balance{
+        right: 2vw;
+    }
+    #popup{
+        width: 60%;
+        left: 50%;
+    }
+    .submit-button,
+    #cancel{
+        width: 20vw;
+    }
+    form{
+        padding: 0 3%;
+    }
+    #popup h1{
+        color: white;
+        margin: 0 0 2vh 3%;
+    }
+    form input{
+        width: 87%;
+    }
+}

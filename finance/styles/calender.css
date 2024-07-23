@@ -1,0 +1,144 @@
+.calender,
+.aggregate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5vh;
+    color: white;
+    padding: 0.4vh 1.6vw;
+}
+.aggregate{
+    row-gap: 1vh;
+    align-items: start;
+}
+.dropdowns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    justify-content: space-around;
+}
+select {
+    padding: 0.2vh;
+    font-family:  'Courier New', Courier, monospace;
+    border-radius: 5vh;
+    background-color: black;
+    color: white;
+    border: solid 0.2vh grey;
+}
+select:hover{
+    cursor:pointer;
+}
+#year,
+#date,
+#day,
+#balance-title,
+#balance,
+#percentage{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#balance-title{
+    color: grey;
+    font-weight: 600;
+}
+#balance{
+    font-size: 4vh;
+    font-weight: 800;
+}
+.up{
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: #66ff00;
+}
+.down{
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: rgb(255, 34, 34);
+}
+.transaction,
+.aggregate{
+    position: relative;
+}
+.transaction{
+    height: 100%;
+}
+#add-item,
+#delete-item,
+#update-balance{
+    background-color: #443AD8;
+    color: white;
+    border: none;
+    padding: 1.5vh 1.5vw;
+    border-radius: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    position: absolute;
+    right: 1vw;
+    top: 1.3vh;
+}
+#delete-item{
+    background-color: rgb(255, 34, 34);
+    position: absolute;
+    right: 6vw;
+    top: 1.6vh;
+    padding: 1.37vh 1.2vw;
+}
+#update-balance{
+    background-color: rgb(255, 34, 34);
+}
+#delete-item:hover,
+#update-balance:hover{
+    background-color: rgb(243, 10, 10);
+    cursor: pointer;
+}
+#add-item:hover{
+    cursor: pointer;
+    background-color: #2b1ede;
+}
+#expense-history{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    position: absolute;
+    left: 1.6vw;
+    top: 2vh;
+    margin: 0;
+    font-size: 3.2vh;
+}
+#transaction-history{
+    margin: 8vh 1vw 1vh 1.2vw;
+    width: 88%;
+    height: 70%;
+    padding: 1vh 0.6vw;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+.transaction-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5vh 1vw;
+}
+#transaction-name{
+    margin: 0;
+    color: rgb(255, 34, 34);
+    font-size: 3vh;
+    font-weight: 800;
+}
+#transaction-amount{
+    margin: 0;
+    color: white;
+    font-size: 3vh;
+    font-weight: 800;
+}
+#income-name{
+    margin: 0;
+    color: #66ff00;
+    font-size: 3vh;
+    font-weight: 800;
+}

@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+    padding: 0 0 50vh 0;
+    margin: 0;
+}
+.heading{
+    width: max-content;
+    margin: 10vh auto 0vh auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    animation: down 0.5s ease-in;
+}
+.heading h1,
+.heading h2{
+    font-family: Montserrat;
+    margin: 0;
+}
+span,
+.heading h2{
+    font-weight: 450;
+}
+#right{
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+    z-index: 1;
+    animation: right 0.5s ease-in;
+}
+#left{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    z-index: 1;
+    animation: left 0.5s ease-in;
+}
+.container{
+    position: relative;
+    background-color: black;
+    margin: 5vh auto;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    column-gap: 1vw;
+    height: 60vh;
+    width: 50vw;
+    z-index: 20;
+    animation: down 0.5s ease-in;
+}
+.container div div{
+    border-radius: 2vh;
+    background-color: rgba(24,24,24,0.85);
+}
+.left-grid{
+    display: grid;
+    row-gap: 1.5vh;
+    grid-template-rows: 1fr 2fr;
+}
+.right-grid{
+    display: grid;
+    row-gap: 1.5vh;
+    grid-template-rows: 1fr 1.2fr 0.7fr;
+}
+@keyframes down {
+    from{
+        transform: translateY(-20px);
+        opacity: 0.4;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes left {
+    from{
+        transform: translateX(-20px);
+        opacity: 0.4;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes right {
+    from{
+        transform: translateX(20px);
+        opacity: 0.4;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+#reset{
+    background-color:rgb(255, 34, 34);
+    color: white;
+    border: none;
+    padding: 1.3vh 2.5vw;
+    border-radius: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    position: absolute;
+    right: 2vw;
+    top: 1.3vh;
+    z-index: 200;
+}
+#reset:hover{
+    background-color: rgb(243, 10, 10);
+    cursor: pointer;
+}
